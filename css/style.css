@@ -1,44 +1,167 @@
 body{
-    background-color: #d3d3d3;
-    text-shadow: hsl(220, 15%, 55%) ;
+    display: flex;
+    justify-content: center;
+    background-color:  hsl(0, 0%, 95%);
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-.qr{
-    height: 35rem;
-    background-color: #fff;
-    text-shadow:  hsl(220, 15%, 55%);
-    margin: 4.6rem auto;
-    width: 22rem;
-    border-radius: 1.5rem;
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
+    margin: auto;
+}
+
+.row1{
     display: flex;
     align-items: center;
+    position: relative;
+    height: 25rem;
+    width: 17rem;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 1rem;
+}
+
+.row2{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 25rem;
+    width: 17rem;
+    background-color: #008b8b;
+    z-index: 1;
+    margin: -1rem;
 }
 
-
-.code{
-    border-radius: 1.5rem;
-    margin: auto;
-    width: 80%;
-    margin-bottom: 15.5rem;
+.row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 25rem;
+    width: 17rem;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 1rem;
 }
 
-.title{
-    position: absolute;
-    margin-top: 10rem;
-    color:  hsl(218, 44%, 22%);
-    font-family: 'Outfit', sans-serif;
+@media  (max-width : 768px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+.car-1{
+    position: relative;
+    top: -8.5rem;
+    left: 2.5rem;
+}
+
+.sed{
+    position: relative;
+    top: -4.5rem;
+    left: -1.5rem;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display' 'sans-serif';
     font-weight: 700;
-    text-align: center;
-    font-size: 1.4rem;
 }
 
-.sum{
-    position: absolute;
-    margin-top: 20rem;
-    text-align: center;
+.suv{
+    position: relative;
+    top: -4.5rem;
+    left: -1.5rem;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display' 'sans-serif';
+    font-weight: 700;
+}
+
+.lux{
+    position: relative;
+    top: -4.5rem;
+    left: -.5rem;
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display' 'sans-serif';
+    font-weight: 700;
+}
+
+.p-1{
+    position: relative;
+    left: -6rem;
+    margin-left: -1.5rem;
+    margin-right: -10rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca' 'sans-serif';
     font-weight: 400;
-    font-size: 1rem;
-    font-family: 'Outfit', sans-serif;
+}
+
+button{ 
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    justify-content: center;
+    top: 8.5rem;
+    width: 5rem;
+    left: -6rem;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    border-right: 2rem;
+    border-bottom: 2rem;
+    cursor: grab;
+}
+
+.but-1{
+    color:  hsl(31, 77%, 52%);
+    left: -7rem;
+}
+
+.car-2{
+    position: relative;
+    top: -8.5rem;
+    left: 2.5rem;
+}
+
+.p-2{
+    position: relative;
+    left: -6.5rem;
+    margin-left: 1rem;
+    margin-right: -11rem;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca' 'sans-serif';
+    font-weight: 400;
+}
+
+.but-2{
+    color:  hsl(184, 100%, 22%);
+    left: -7rem;
+}
+
+.car-3{
+    position: relative;
+    top: -8.5rem;
+    left: 3.5rem;
+}
+
+.p-3{
+    position: relative;
+    left: -6rem;
+    margin-left: -1rem;
+    margin-right: -12rem;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca' 'sans-serif';
+    font-weight: 400;
+}
+
+.but-3{
+    color: hsl(179, 100%, 13%);
 }
